@@ -3,7 +3,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include <signal.h>
+
 #include <arpa/inet.h>
 #include<unistd.h>
 #include<sys/socket.h>
@@ -49,8 +49,6 @@ const char* authenticate(int,char*);
 
 void handle_client(int);
 
-// handles the interrupt signal
-void handle_sigint(int);
 
 
 #endif
